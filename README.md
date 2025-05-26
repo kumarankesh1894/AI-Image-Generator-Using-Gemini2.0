@@ -1,74 +1,94 @@
-<<<<<<< HEAD
-# AI-Image-Generator-Using-Gemini2.0
-=======
-# Getting Started with Create React App
+# Project Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project Title: AI Image Generator Web Application
+Project Type: Full Stack Web Application
+Role: Full Stack Developer
 
-## Available Scripts
+#Project Overview
+I developed a full-stack AI Image Generator Website where users can input a text prompt to generate images using Google's Gemini AI (GenAI). Users can preview the generated image, download it, and optionally publish the image with their name on the platform.
 
-In the project directory, you can run:
+## Key Features
 
-### `npm start`
+🔍 AI-based Image Generation
+Users enter a prompt that is processed through Google GenAI (Gemini API) to generate high-quality images.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+💾 Image Storage & Publishing
+Images can be uploaded to Cloudinary and displayed in a public gallery with the user’s name.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📦 Download Functionality
+Users can download the generated images directly using FileSaver.js.
 
-### `npm test`
+🧠 Lazy Loading for Performance
+Images are lazy-loaded using the react-lazy-load-image-component for optimized performance.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🧭 User-Friendly Interface
+Developed using Material-UI and Styled Components, the interface is responsive and intuitive.
+List your project features...
 
-### `npm run build`
+## Tech Stack:
+🔹 Frontend (React.js):
+React.js (v18.2.0)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React Router DOM (v6.22.0) – For routing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Material-UI & Icons – For UI components
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Styled Components & Emotion – CSS-in-JS styling
 
-### `npm run eject`
+Axios – For HTTP requests
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+FileSaver.js – To enable image downloads
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+React Lazy Load Image Component – Image optimization
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🔹 Backend (Node.js + Express):
+Express.js (v4.18.2) – REST API framework
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Node.js (with ES Modules)
 
-## Learn More
+MongoDB + Mongoose (v8.1.1) – For database management
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Node-fetch – For internal API calls
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Google GenAI SDK (@google/genai) – For image generation
 
-### Code Splitting
+Cloudinary – For storing images in the cloud
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Dotenv – Environment variable management
+.env_example:
+PORT=5000
+MONGODB_URI=your_mongodb_connection_string
+CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+GOOGLE_GENAI_API_KEY=your_google_genai_api_key
 
-### Analyzing the Bundle Size
+CORS & Nodemon – For development and API access
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Getting Started
 
-### Making a Progressive Web App
+1.Clone the repo.
+2. Install dependencies: npm install
+Set up your .env file with necessary API keys and configuration.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Run the development server:
+npm start
 
-### Advanced Configuration
+## Folder Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+client/ – React frontend components and styling.
 
-### Deployment
+server/ – Express backend routes, controllers, and database models.
+## Future Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Add user authentication.
 
-### `npm run build` fails to minify
+Enable image sharing on social platforms.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> fbd1ec8 (Initial commit)
+Enhance UI/UX with animations and better accessibility.
+
+## Author
+
+Name: Kumar Ankesh
+LinkedIn : https://www.linkedin.com/in/kumar-ankesh/
+
