@@ -1,6 +1,4 @@
-# Project Title
-
-Project Title: AI Image Generator Web Application
+# Project Title: AI Image Generator Web Application
 Project Type: Full Stack Web Application
 Role: Full Stack Developer
 
