@@ -1,5 +1,6 @@
 # Project Title: AI Image Generator Web Application
 Project Type: Full Stack Web Application
+
 Role: Full Stack Developer
 
 # Project Overview
@@ -66,10 +67,12 @@ CORS & Nodemon – For development and API access
 ## Getting Started
 
 1.Clone the repo.
-2. Install dependencies: npm install
-Set up your .env file with necessary API keys and configuration.
 
-Run the development server:
+2. Install dependencies: npm install
+   
+3.Set up your .env file with necessary API keys and configuration.
+
+4.Run the development server:
 npm start
 
 ## Folder Structure
@@ -88,5 +91,6 @@ Enhance UI/UX with animations and better accessibility.
 ## Author
 
 Name: Kumar Ankesh
+
 LinkedIn : https://www.linkedin.com/in/kumar-ankesh/
 
