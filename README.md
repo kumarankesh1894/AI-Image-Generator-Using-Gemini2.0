@@ -4,7 +4,7 @@ Project Title: AI Image Generator Web Application
 Project Type: Full Stack Web Application
 Role: Full Stack Developer
 
-#Project Overview
+# Project Overview
 I developed a full-stack AI Image Generator Website where users can input a text prompt to generate images using Google's Gemini AI (GenAI). Users can preview the generated image, download it, and optionally publish the image with their name on the platform.
 
 ## Key Features
